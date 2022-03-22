@@ -8,5 +8,31 @@ public class Animal {
     private String tipo;
     private String sexo;
 
+    public Animal(int idade, String nome, String raca, String tipo, String sexo) {
+        this.idade = idade;
+        this.nome = nome;
+        this.raca = raca;
+        this.tipo = tipo;
+        this.sexo = sexo;
+    }
 
+    public int getIdade() {
+        return idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
 }
