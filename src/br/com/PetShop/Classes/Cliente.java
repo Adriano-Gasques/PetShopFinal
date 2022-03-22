@@ -11,7 +11,7 @@ public class Cliente {
     public Cliente(int idade, String nome, String sobrenome, int cpf, String sexo, Endereco endereco) {
         this.idade = idade;
         this.nome = nome;
-        Sobrenome = sobrenome;
+        this.Sobrenome = sobrenome;
         this.cpf = cpf;
         this.sexo = sexo;
         this.endereco = endereco;
