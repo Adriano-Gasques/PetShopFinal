@@ -1,7 +1,12 @@
 package br.com.PetShop.Classes;
 
 public class Animal {
-    public static void main(String[] args) {
-        System.out.println("a");
-    }
+
+    private int idade;
+    private String nome;
+    private String raca;
+    private String tipo;
+    private String sexo;
+
+
 }
