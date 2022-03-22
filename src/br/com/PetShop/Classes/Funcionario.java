@@ -41,4 +41,14 @@ public class Funcionario {
     public double getSalario() {
         return salario;
     }
+
+    @Override
+    public String toString() {
+        return "\nCodigo: " + this.codigo +
+                "\nNome: " + this.nome +
+                "\nSobrenome: " + this.sobrenome +
+                "\nCPF: " + this.cpf +
+                "\nSexo: " + this.sexo + '\'' +
+                "\nSalario: R$" + this.salario;
+    }
 }

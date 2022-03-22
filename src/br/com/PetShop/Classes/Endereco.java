@@ -34,4 +34,13 @@ public class Endereco {
     public int getNumero() {
         return numero;
     }
+
+    @Override
+    public String toString() {
+        return "\nRua: " + this.rua +
+                "\nNúmero: " + this.numero +
+                "\nComplemento: " + this.complemento +
+                "\nCidade: " + this.cidade +
+                "\nEstado: " + this.estado;
+    }
 }

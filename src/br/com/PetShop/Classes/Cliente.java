@@ -39,7 +39,23 @@ public class Cliente {
         return sexo;
     }
 
+    public String getTelefone() {
+        return telefone;
+    }
+
     public Endereco getEndereco() {
         return endereco;
+    }
+
+    @Override
+    public String toString() {
+        return "\n*** Dados do Cliente ***" +
+                "\n Nome: " + this.nome +
+                "\nSobrenome: " + this.sobrenome +
+                "\nIdade: " + this.idade +
+                " anos\nCPF: " + this.cpf +
+                "\nSexo: " + this.sexo +
+                "\nTelefone: " + this.telefone +
+                "\n*** Dados do Endereço: ***" + this.getEndereco();
     }
 }

@@ -35,4 +35,14 @@ public class Animal {
     public String getSexo() {
         return sexo;
     }
+
+    @Override
+    public String toString() {
+        return "\n*** Dados do Animal ***" +
+                "\n Nome: " + this.nome +
+                "\nIdade: " + this.idade +
+                "\nRaça: " + this.raca +
+                "\nEspécie: " + this.tipo +
+                "\nSexo: " + this.sexo;
+    }
 }

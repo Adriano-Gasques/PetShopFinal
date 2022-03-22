@@ -12,4 +12,11 @@ public class Veterinario extends Funcionario{
     public String getCmrv() {
         return crmv;
     }
+
+    @Override
+    public String toString() {
+        return "\n*** Dados do Funcionário ***" +
+                "\nCargo: Veterinário" +
+                "\nCRMV: " + this.crmv + super.toString();
+    }
 }
